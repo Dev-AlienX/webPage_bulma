@@ -1,0 +1,116 @@
+nav.navbar {
+    background-color: lightgray;
+    align-items: center !important;
+}
+
+.navbar-start {
+    padding-left: 20px;
+}
+
+.navbar-search {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.navbar-search a.button.is-text {
+    position: absolute;
+    left: 0;
+    z-index: 5;
+    outline: none;
+    text-decoration: none;
+    border-right: 1px solid #dbdbdb;
+}
+
+.navbar-search a.button.is-text:hover {
+    background-color: transparent;
+}
+
+.navbar-search a.button.is-text:focus {
+    outline: none;
+    border: 1px solid #3273dc !important;
+    box-shadow: none;
+    background: transparent;
+}
+
+.navbar-search .search-wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.navbar-search .search-wrapper input {
+    position: relative;
+    padding-left: 63px;
+    padding-right: 40px;
+}
+
+.navbar-search .search-wrapper i.icon {
+    position: absolute;
+    right: 10px;
+}
+
+header.header-cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+    background: gray;
+}
+
+header.header-cards .card .card-content .content h4 {
+    margin-bottom: unset;
+}
+
+main section.filter-item {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+
+main section.filter-item .filter,
+main section.filter-item .sort {
+    display: flex;
+}
+
+main section.filter-item .filter p {
+    padding: 10px;
+}
+
+main section.filter-item .filter a,
+main section.filter-item .sort a {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+main section.hero {
+    min-height: 480px;
+}
+
+main section.products {
+    padding: 30px;
+}
+main section.products .product-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+main section.products .product-wrapper .column.is-3 {
+   padding: 20px;
+}
+
+
+footer .footer-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+footer .footer-wrapper p {
+    margin-right: 20px;
+}
+
+footer .footer-wrapper i {
+    margin-right: 20px;
+}
